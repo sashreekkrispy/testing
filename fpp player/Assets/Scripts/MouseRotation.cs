@@ -13,7 +13,7 @@ public class MouseRotation : MonoBehaviour
     void Start()
     {
         Cursor.lockState = CursorLockMode.Confined;
-        Cursor.visible = true;
+        Cursor.visible = false;
 
     }
 
